@@ -1,1 +1,1 @@
-# rsschool-cv
+https://asternem.github.io/rsschool-cv/cv
