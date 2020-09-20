@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.welcome {
+  background-image: url("images/pattern.png");
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.welcome__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px auto 0;
+}
+
+.welcome__avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.welcome__subtitle {
+  margin-top: 15px;
+}
+
+.about {
+  background-color: #eee;
+  padding: 15px 10px;
+  display: flex;
+}
+
+.about__summary {
+  flex: 0 1 700px;
+  position: relative;
+}
+
+.about__summary::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #000;
+  top: 0;
+  right: 2px;
+}
+
+.skills {
+  padding: 25px 0;
+}
+
+.skills__header {
+  margin-bottom: 25px;
+}
+
+.skills img {
+  width: auto;
+  height: 125px;
+}
+
+.skills__header {
+  text-align: center;
+}
+
+.skills__info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills__item {
+  padding: 10px 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 35px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skills__title {
+  margin-top: 10px;
+  background-color: #3d1d94;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.education {
+  margin: 25px 0;
+}
+
+.education__title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.english {
+  margin: 25px 0;
+}
+
+.english__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.english__about a {
+  text-decoration: none;
+  color: #0b92ad;
+}
+
+.english__about a:hover {
+  border-bottom: 1px solid #0b92ad;
+  color: #085666;
+}
